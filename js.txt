@@ -1,0 +1,36 @@
+document.addEventListener("keydown", function(event) {
+    if (event.code == "KeyA" ){
+        let audioA = document.createElement("AUDIO");
+        audioA.src = "A.mp3";
+        audioA.play(audioA.src);}
+
+    else if (event.code == "KeyD") {
+        let audioA = document.createElement("AUDIO");
+        audioA.src = "D.mp3";
+        audioA.play(audioA.src);}
+    else if (event.code == "KeyF"){
+        let audioA = document.createElement("AUDIO");
+        audioA.src = "F.mp3";
+        audioA.play(audioA.src);}
+    else if (event.code == "KeyG"){
+        let audioA = document.createElement("AUDIO");
+        audioA.src = "G.mp3";
+        audioA.play(audioA.src);}
+    else if (event.code == "KeyH"){
+        let audioA = document.createElement("AUDIO");
+        audioA.src = "H.mp3";
+        audioA.play(audioA.src);}
+    else if (event.code == "KeyJ") {
+        let audioA = document.createElement("AUDIO");
+        audioA.src = "J.mp3";
+        audioA.play(audioA.src);}
+    else if (event.code == "KeyS") {
+            let audioA = document.createElement("AUDIO");
+            audioA.src = "S.mp3";
+            audioA.play(audioA.src);
+    } else {
+        console.log('Warning')
+    }
+});
+
+
